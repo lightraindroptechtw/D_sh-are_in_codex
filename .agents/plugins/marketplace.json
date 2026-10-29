@@ -1,0 +1,20 @@
+{
+  "name": "d-sh-are-in-codex",
+  "plugins": [
+    {
+      "name": "dsh-to-codex",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ],
+  "interface": {
+    "displayName": "D_sh-are_in_codex"
+  }
+}

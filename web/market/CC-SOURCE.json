@@ -1,0 +1,18 @@
+{
+  "source": "C:/ClaudeData/claude_pzs8sxrjxfjjc/scratch-workspaces/04758642-3453-4c66-a8da-1501e533e6e8/b326ac55-5f00-4df1-9191-a61aa7f32e1e/scratch-2026-10-22-e1575b/dsh-to-claude",
+  "files": [
+    "market-web/index.html",
+    "market-web/app.js",
+    "market-web/app.css",
+    "market-web/markdown.js",
+    "market-web/i18n.js",
+    "hooks/catalog.ts",
+    "hooks/markets.ts",
+    "hooks/readme.ts"
+  ],
+  "license": "MIT",
+  "adaptation": "Claude/Claude Code to Codex and Haiku to Luna; Bearer authentication and CSRF; persistent market-access tab key; all nine languages route missing-key/offline/bad-key recovery to the native Codex $dsh-to-codex:dsh-market skill. Luna candidate progress retained when the job phase remains running. Server code/params messages and Markdown image labels follow the selected language. Retained signed scan, source-review results, editable handoff, main conversation review budget, explicit conversion consent, source-pinned preparation summary and explicit installation controls. Converted entry install opens its signed prepared summary before consent. Only detail-control CSS is appended. Latest CC status filters inside the funnel: installed, not installed, downloaded but not installed, favorites. Download versions and updates appear on cards and detail pages. Download delete and plugin remove require independent second clicks within a visible four-second countdown. Inventory refreshes after completed source download/scan/review and install jobs. Installed entries are defensively excluded from the download-only view.",
+  "latestSync": "CC-LATEST-SYNC.json",
+  "copiedAt": "2026-10-28T03:38:50.136Z",
+  "licenseAttribution": "Copyright (c) 2026 lightraindroptechtw"
+}

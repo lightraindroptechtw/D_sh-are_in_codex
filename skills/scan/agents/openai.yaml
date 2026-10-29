@@ -1,0 +1,3 @@
+interface:
+  display_name: "審查 DSH 插件"
+  short_description: "提供插件名稱、來源網址或資料夾，由目前對話審查用途與風險，不安裝"

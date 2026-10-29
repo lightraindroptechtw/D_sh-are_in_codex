@@ -1,0 +1,3 @@
+interface:
+  display_name: "審查並安裝 DSH 插件"
+  short_description: "提供插件來源，由目前對話審查並回報，同意後轉換安裝固定的版本"

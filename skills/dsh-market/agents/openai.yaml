@@ -1,0 +1,3 @@
+interface:
+  display_name: "開啟 DSH 插件市場"
+  short_description: "直接在 Codex 對話右側開啟插件市場，不需捷徑或手動啟動服務"

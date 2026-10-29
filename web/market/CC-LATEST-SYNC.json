@@ -1,0 +1,135 @@
+{
+  "source": "https://github.com/lightraindroptechtw/D_sh-are_in_cc",
+  "copiedAt": "2026-10-28T03:38:50.136Z",
+  "license": "MIT",
+  "files": [
+    {
+      "source": "market-web/index.html",
+      "destination": "web/market/index.html",
+      "sourceSha256": "bd5e5fa3e835acd3fcf60250a353a7a6d3248d386ec2b930dd327bb56351c732",
+      "destinationSha256": "8e9d2df4f357e184b99cc1be1f136f43a1e50734d4b0eb710cd8284046456214",
+      "sourceReadAt": "2026-10-28T03:38:50.136Z"
+    },
+    {
+      "source": "market-web/app.css",
+      "destination": "web/market/app.css",
+      "sourceSha256": "a2e75dce42954ce227dc49fc433eb37f6011d227ff2c4e33dc7e582cc4735a22",
+      "destinationSha256": "2141d536b97e0c943cc5b5bb715334dd9b00d38a6a41e673e0a56143f6bd7610",
+      "sourceReadAt": "2026-10-28T03:38:50.136Z"
+    },
+    {
+      "source": "market-web/app.js",
+      "destination": "web/market/app.js",
+      "sourceSha256": "e07b1f0e6dc2b12d0f6eebfe157bab8c5ca5dbbc19705f199fd5f8683bb60789",
+      "destinationSha256": "883310afd946309aaa8c37435dcafedb70e55599fd31a3c71f1fee6f33f9a6f3",
+      "sourceReadAt": "2026-10-28T03:38:50.136Z"
+    },
+    {
+      "source": "market-web/i18n.js",
+      "destination": "web/market/i18n.js",
+      "sourceSha256": "cbb3fea048912f8b7d7c7ed57eb486b97c14f362f9b678e5dc5cdc5a162515bf",
+      "destinationSha256": "caa12b94650a0f381140617bf1bb0538545682ef1e5d993ad3f8c7e82df8dcb1",
+      "sourceReadAt": "2026-10-28T03:38:50.136Z"
+    },
+    {
+      "source": "market-web/markdown.js",
+      "destination": "web/market/markdown.js",
+      "sourceSha256": "7ba0ca61f2abcd7e5b735b36de778b79509fdf4b73086ab8d93f214f2c7465c1",
+      "destinationSha256": "7ba0ca61f2abcd7e5b735b36de778b79509fdf4b73086ab8d93f214f2c7465c1",
+      "sourceReadAt": "2026-10-28T03:38:50.136Z"
+    },
+    {
+      "source": "LICENSE",
+      "destination": "web/market/CC-SOURCE-LICENSE",
+      "sourceSha256": "6dd91754b18470b8b5904967090a25b0652e48eca5356320a9afb44f47551923",
+      "destinationSha256": "6dd91754b18470b8b5904967090a25b0652e48eca5356320a9afb44f47551923",
+      "sourceReadAt": "2026-10-28T03:38:50.136Z"
+    },
+    {
+      "source": "hooks/catalog.ts",
+      "destination": "lib/cc-market-catalog.mjs",
+      "sourceSha256": "81906294019436df689bb357bf3f2afd60840f8c6e8d6b437c3218bd4caab1ce",
+      "destinationSha256": "24933b522460e9fe42c59c2b41b9d578f8706a7521c4f9cc6e97c43bac82f839",
+      "note": "已同步最近三十天的明確統計日期區間；預設以本機目前時間產生。"
+    },
+    {
+      "source": "hooks/markets.ts",
+      "destination": "lib/cc-market-markets.mjs",
+      "sourceSha256": "32e363af2cd73fc880925d67ca34600c089e16f779a238ae164cb278f44ee517",
+      "destinationSha256": "c5278312650dcef86af8a54eee24f8528d6af8d0488198ae58ed314c309f1b49",
+      "note": "Previously ported backend module; its original frozen source hash is retained."
+    }
+  ],
+  "layoutChecks": {
+    "htmlMatchesSourceAfterPlatformBranding": true,
+    "cssOriginalPrefixByteForByte": true,
+    "normalRenderStructureMatchesSource": true,
+    "pagerScrollTarget": "toolbar",
+    "categoryLocation": "filter-panel",
+    "installedAndFavoritesLocation": "filter-panel/status",
+    "downloadedLocation": "filter-panel/status",
+    "visualInspection": "Latest delta verified through DOM behavior tests. The prior live-page screenshots are historical and do not verify this delta.",
+    "testEvidence": [
+      "tests/cc-market-latest-ui.test.mjs",
+      "tests/market-review-ui.test.mjs"
+    ]
+  },
+  "platformAdaptations": [
+    {
+      "id": 1,
+      "scope": "Platform connection",
+      "changes": "Claude/Claude Code to Codex and Haiku to Luna; Bearer authentication and CSRF; persistent market-access tab key; all nine languages route missing-key/offline/bad-key recovery to the native Codex $dsh-to-codex:dsh-market skill. Luna candidate progress retained when the job phase remains running. Server code/params messages and Markdown image labels follow the selected language."
+    },
+    {
+      "id": 2,
+      "scope": "Main conversation review and explicit installation",
+      "changes": "Retained signed scan, source-review results, editable handoff, main conversation review budget, explicit conversion consent, source-pinned preparation summary and explicit installation controls. Converted entry install opens its signed prepared summary before consent. Only detail-control CSS is appended."
+    },
+    {
+      "id": 3,
+      "scope": "Latest upstream management and catalog",
+      "changes": "Latest CC status filters inside the funnel: installed, not installed, downloaded but not installed, favorites. Download versions and updates appear on cards and detail pages. Download delete and plugin remove require independent second clicks within a visible four-second countdown. Inventory refreshes after completed source download/scan/review and install jobs. Installed entries are defensively excluded from the download-only view."
+    }
+  ],
+  "integrationUpdatedAt": "2026-10-28T03:38:50.136Z",
+  "latestDelta": {
+    "changes": [
+      "Latest local CC status-funnel layout copied, including removal of the previous installed/favorites toolbar buttons.",
+      "Downloaded-source inventory, version/update labels and guarded delete controls ported.",
+      "Upstream four-second visible remove/delete confirmation and localized server messages copied.",
+      "Markdown image fallback labels localized in all nine languages.",
+      "Codex authentication, native entrypoint recovery, main-conversation review and consent gates retained.",
+      "Updated MIT attribution preserves the upstream author name."
+    ],
+    "backendContracts": {
+      "installed": "GET /api/cc/installed returns downloads: { [catalogName]: {version,update?} } alongside items and known.",
+      "manage": "POST /api/cc/manage accepts {action:delete,name:catalogName}; response includes {ok,text,installed}.",
+      "messages": "Optional response/job code and params are localized; unknown codes preserve original text."
+    }
+  },
+  "sourceSnapshot": {
+    "frozenAt": "2026-10-28T03:38:50.136Z",
+    "policy": "Frontend and license hashes above are frozen for this delivery. Previously ported backend source hashes remain attributed to their earlier snapshot; no background upstream tracking is enabled."
+  },
+  "entrypointAdaptation": {
+    "missingAccessKey": "All nine languages return users to their Codex conversation and the native $dsh-to-codex:dsh-market skill or a natural-language market-opening request.",
+    "offline": "All nine languages use the same native Codex entrypoint to restart the plugin service and obtain a new market connection; neither recovery state depends on a desktop shortcut or an unsupported slash command.",
+    "frozenAt": "2026-10-28T03:38:50.136Z",
+    "verifiedSkillName": "dsh-to-codex:dsh-market",
+    "displayName": "開啟 DSH 插件市場",
+    "badKey": "All nine language msg.badKey strings use the same native Codex recovery entrypoint."
+  },
+  "previousSnapshot": {
+    "copiedAt": "2026-10-25T19:15:17.34Z",
+    "sourceSnapshot": {
+      "frozenAt": "2026-10-25T19:25:18.553Z",
+      "policy": "This delivery freezes the exact sourceSha256 values recorded above; later upstream edits are outside this snapshot."
+    },
+    "visualInspection": "Original CC and Codex live pages inspected at 1265x712; matching card grid, toolbar, icons and filters. Brand labels, read timestamps and isolated favorite count differ. The later unknown-status patch is covered by focused tests.",
+    "visualEvidence": [
+      "verification/v0.9.0/cc-original-market.png",
+      "verification/v0.9.0/codex-market.png",
+      "verification/v0.9.0/codex-favorites.png"
+    ]
+  }
+}

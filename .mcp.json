@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "dsh-to-codex-converter": {
+      "command": "node",
+      "args": [
+        "./bin/dsh-to-codex.mjs",
+        "serve"
+      ],
+      "cwd": ".",
+      "startup_timeout_sec": 30,
+      "tool_timeout_sec": 600
+    }
+  }
+}

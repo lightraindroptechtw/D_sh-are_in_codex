@@ -1,0 +1,313 @@
+{
+  "generatedAt": "2026-10-24T17:49:45.496Z",
+  "note": "Latest 0.7.0 records are first; actual installed-cache calls only. Prior historical records remain separate. Never claim whole-plugin compatibility.",
+  "plugins": [
+    {
+      "name": "dsh-pace-calc",
+      "version": "0.1.1",
+      "cases": 1,
+      "scope": "pace_calc；只涵蓋驗收報告所列合成案例",
+      "converterVersion": "0.7.0",
+      "privateRepair": false,
+      "evidence": "verification/v0.7.0/驗收報告.md"
+    },
+    {
+      "name": "@deepseek-ai/dsh-tool-encoding",
+      "version": "0.0.1",
+      "cases": 1,
+      "scope": "encoding；只涵蓋驗收報告所列合成案例",
+      "converterVersion": "0.7.0",
+      "privateRepair": false,
+      "evidence": "verification/v0.7.0/驗收報告.md"
+    },
+    {
+      "name": "dsh-rf-toolkit",
+      "version": "0.1.2",
+      "cases": 1,
+      "scope": "rf_shannon_capacity；只涵蓋驗收報告所列合成案例",
+      "converterVersion": "0.7.0",
+      "privateRepair": false,
+      "evidence": "verification/v0.7.0/驗收報告.md"
+    },
+    {
+      "name": "dsh-plugin-local-life",
+      "version": "0.3.2",
+      "cases": 1,
+      "scope": "local_life；只涵蓋驗收報告所列合成案例",
+      "converterVersion": "0.7.0",
+      "privateRepair": false,
+      "evidence": "verification/v0.7.0/驗收報告.md"
+    },
+    {
+      "name": "@dougen/dsh-cdp",
+      "version": "0.3.2",
+      "cases": 1,
+      "scope": "source HTTP GET /api/dsh-cdp?cmd=status；只涵蓋驗收報告所列合成案例",
+      "converterVersion": "0.7.0",
+      "privateRepair": false,
+      "evidence": "verification/v0.7.0/驗收報告.md"
+    },
+    {
+      "name": "dsh-keep-awake",
+      "version": "0.3.1",
+      "cases": 1,
+      "scope": "source HTTP GET /dsh-keep-awake/state；已明確加入 PowerShell 額外讀取資料夾，未啟動防休眠程式；只涵蓋驗收報告所列合成案例",
+      "converterVersion": "0.7.0",
+      "privateRepair": false,
+      "evidence": "verification/v0.7.0/驗收報告.md"
+    },
+    {
+      "name": "dsh-exa-mcp",
+      "version": "0.1.0",
+      "cases": 1,
+      "scope": "external web_search_exa (anonymous public endpoint)；公開端點匿名搜尋；只涵蓋驗收報告所列合成案例",
+      "converterVersion": "0.7.0",
+      "privateRepair": false,
+      "evidence": "verification/v0.7.0/驗收報告.md"
+    },
+    {
+      "name": "dsh-folder-timemachine",
+      "version": "0.1.0",
+      "cases": 1,
+      "scope": "folder_timemachine；只涵蓋驗收報告所列合成案例",
+      "converterVersion": "0.7.0",
+      "privateRepair": false,
+      "evidence": "verification/v0.7.0/驗收報告.md"
+    },
+    {
+      "name": "dsh-obsidian",
+      "version": "0.2.6",
+      "cases": 2,
+      "scope": "obsidian_read、obsidian_write；只涵蓋驗收報告所列合成案例",
+      "converterVersion": "0.7.0",
+      "privateRepair": false,
+      "evidence": "verification/v0.7.0/驗收報告.md"
+    },
+    {
+      "name": "dsh-invoice-tools",
+      "version": "0.1.1",
+      "cases": 1,
+      "scope": "invoice_parse；只涵蓋驗收報告所列合成案例",
+      "converterVersion": "0.7.0",
+      "privateRepair": false,
+      "evidence": "verification/v0.7.0/驗收報告.md"
+    },
+    {
+      "name": "dsh-bili-scroll",
+      "version": "0.1.19",
+      "cases": 1,
+      "scope": "bili_status；僅狀態，沒有登入、發文或完整值班驗證；只涵蓋驗收報告所列合成案例",
+      "converterVersion": "0.7.0",
+      "privateRepair": false,
+      "evidence": "verification/v0.7.0/驗收報告.md"
+    },
+    {
+      "name": "dsh-plugin-nlbi",
+      "version": "0.2.1",
+      "cases": 3,
+      "scope": "MySQL 查詢、自然語言轉 SQL、資料圖表",
+      "converterVersion": "0.4.1",
+      "privateRepair": false
+    },
+    {
+      "name": "dsh-plugin-finance-data",
+      "version": "0.3.2",
+      "cases": 30,
+      "scope": "十種財務資料格式、計算、風險與配置分析",
+      "converterVersion": "0.4.1",
+      "privateRepair": true
+    },
+    {
+      "name": "@a9i5k4/dsh-literature",
+      "version": "0.3.6",
+      "cases": 5,
+      "scope": "文獻庫搜尋、詳情、規範引用與筆記",
+      "converterVersion": "0.4.1",
+      "privateRepair": false
+    },
+    {
+      "name": "dsh-scrape-webpage",
+      "version": "1.0.0",
+      "cases": 1,
+      "scope": "網頁正文、標題、連結與關鍵字分析",
+      "converterVersion": "0.4.1",
+      "privateRepair": false
+    },
+    {
+      "name": "dsh-read-url",
+      "version": "1.9.3",
+      "cases": 3,
+      "scope": "URL 正文／Markdown 擷取、連結與多頁讀取",
+      "converterVersion": "0.4.1",
+      "privateRepair": false
+    },
+    {
+      "name": "@chengzhao-dev/dsh-quarto-book",
+      "version": "0.4.3",
+      "cases": 2,
+      "scope": "報告文字格式；未執行 Quarto 渲染",
+      "converterVersion": "0.4.1",
+      "privateRepair": false
+    },
+    {
+      "name": "@banana-peeljj12/dsh-trellis",
+      "version": "0.4.2",
+      "cases": 5,
+      "scope": "本機任務建立、狀態更新、跨次讀取與衝突拒絕",
+      "converterVersion": "0.4.1",
+      "privateRepair": false
+    },
+    {
+      "name": "pstack-dsh",
+      "version": "0.2.3",
+      "cases": 1,
+      "scope": "讀取路由設定；未建立模型子代理",
+      "converterVersion": "0.4.1",
+      "privateRepair": false
+    },
+    {
+      "name": "dsh-schedule-later",
+      "version": "0.6.0",
+      "cases": 4,
+      "scope": "本機排程建立、列舉、取消；未測到期送出",
+      "converterVersion": "0.4.1",
+      "privateRepair": false
+    },
+    {
+      "name": "dsh-smart-reminder",
+      "version": "0.1.29",
+      "cases": 5,
+      "scope": "本機提醒資料的建立、讀取、更新、刪除；未發通知",
+      "converterVersion": "0.4.1",
+      "privateRepair": false
+    },
+    {
+      "name": "@yolk_vat-y/dsh-project-memory",
+      "version": "0.6.3",
+      "cases": 3,
+      "scope": "本機文字記憶寫入與詞彙搜尋；無模型擴寫或向量服務",
+      "converterVersion": "0.4.1",
+      "privateRepair": false
+    },
+    {
+      "name": "dsh-ledger-memory",
+      "version": "1.3.0",
+      "cases": 4,
+      "scope": "本機台帳寫入與讀取；未執行 Git",
+      "converterVersion": "0.4.1",
+      "privateRepair": false
+    },
+    {
+      "name": "dsh-plugin-focus",
+      "version": "1.1.1",
+      "cases": 6,
+      "scope": "專注板設定、讀取、附加、摘要、封存、清除及實際插件紀錄",
+      "converterVersion": "0.4.1",
+      "privateRepair": false
+    },
+    {
+      "name": "dsh-memory-recall",
+      "version": "0.2.0",
+      "cases": 7,
+      "scope": "本機記憶新增、更新、讀取、搜尋與刪除；關閉模型回憶",
+      "converterVersion": "0.4.1",
+      "privateRepair": false
+    },
+    {
+      "name": "dsh-wrapup-guard",
+      "version": "0.1.0",
+      "cases": 3,
+      "scope": "收尾狀態與中止；未執行專案命令或通知",
+      "converterVersion": "0.4.1",
+      "privateRepair": false
+    },
+    {
+      "name": "mcmodsdevbridge",
+      "version": "1.0.3",
+      "cases": 1,
+      "scope": "列出合成情境；未啟動遊戲或建置模組",
+      "converterVersion": "0.4.1",
+      "privateRepair": false
+    },
+    {
+      "name": "@aaronandwork/dsh-evidence-gate",
+      "version": "0.2.1",
+      "cases": 2,
+      "scope": "主張登記與分類；未驗證真人工具掛鉤阻擋",
+      "converterVersion": "0.4.1",
+      "privateRepair": false
+    },
+    {
+      "name": "dsh-agentdebugx",
+      "version": "0.1.0",
+      "cases": 1,
+      "scope": "搜尋自有合成對話資料；未讀其他聊天",
+      "converterVersion": "0.4.1",
+      "privateRepair": false
+    },
+    {
+      "name": "dsh-plugin-academic-writing",
+      "version": "0.3.2",
+      "cases": 3,
+      "scope": "academic-citation、academic-check-clean、academic-check-boundary",
+      "converterVersion": "0.4.1",
+      "privateRepair": false,
+      "conversionOptions": {
+        "lenientOutput": true,
+        "allowUndeclaredOutput": true
+      }
+    },
+    {
+      "name": "dsh-plugin-education",
+      "version": "0.3.2",
+      "cases": 3,
+      "scope": "education-classstats、education-quiz-valid、education-quiz-invalid",
+      "converterVersion": "0.4.1",
+      "privateRepair": false,
+      "conversionOptions": {
+        "lenientOutput": true,
+        "allowUndeclaredOutput": true
+      }
+    },
+    {
+      "name": "dsh-plugin-translation",
+      "version": "0.3.2",
+      "cases": 3,
+      "scope": "translation-segment-boundary、translation-qa-valid、translation-qa-mismatch",
+      "converterVersion": "0.4.1",
+      "privateRepair": false,
+      "conversionOptions": {
+        "lenientOutput": true,
+        "allowUndeclaredOutput": true
+      }
+    },
+    {
+      "name": "dsh-plugin-verify",
+      "version": "1.1.1",
+      "cases": 2,
+      "scope": "verify-json-valid、verify-json-invalid",
+      "converterVersion": "0.4.1",
+      "privateRepair": false,
+      "conversionOptions": {
+        "lenientOutput": true,
+        "allowUndeclaredOutput": true
+      }
+    },
+    {
+      "name": "dsh-verify",
+      "version": "0.9.6",
+      "cases": 2,
+      "scope": "真瀏覽器在本機網頁導覽、按鈕點擊、文字比對及故障偵測",
+      "converterVersion": "0.4.1",
+      "privateRepair": false
+    },
+    {
+      "name": "dsh-pace-calc",
+      "version": "0.1.1",
+      "cases": 3,
+      "scope": "頁面安裝後，以三組距離與時間核對配速及速度；未測其他輸入或功能。",
+      "converterVersion": "0.5.0",
+      "privateRepair": false
+    }
+  ]
+}
