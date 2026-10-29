@@ -1,3 +1,5 @@
+## 這個文件是codex獨有的、gpt寫的，可能過於保守，隨便看看就好。這文件基本上是最後一次在codex上的測試。 This file is unique to Codex and written in GPT; it might be overly conservative, so just take a look. This file is basically the last test performed on Codex.
+
 # 相容性與權限差異
 
 ## 本輪通用規則清理
