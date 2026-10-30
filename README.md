@@ -8,7 +8,7 @@
 
 ## 繁體中文
 
-版本：`0.10.0-beta.1`。公開測試版，目前主要在 Windows 驗證。
+版本：`0.10.0-beta.2`。公開測試版，目前主要在 Windows 驗證。
 
 本專案提供 DSH（DeepSeek Harness）社群市場、固定規則掃描、目前 Codex 對話的原始碼審查，以及使用者同意後的轉換安裝。轉換本身不呼叫模型，也不初始化第三方來源。
 
@@ -56,7 +56,7 @@ node ./bin/dsh-to-codex.mjs market --open
 
 ## English
 
-Version: `0.10.0-beta.1`. Public beta, primarily verified on Windows.
+Version: `0.10.0-beta.2`. Public beta, primarily verified on Windows.
 
 This project provides a DSH (DeepSeek Harness) community catalog, deterministic source scanning, review in the current Codex conversation, and conversion and installation after user consent. Conversion itself does not call a model or initialize third-party source code.
 

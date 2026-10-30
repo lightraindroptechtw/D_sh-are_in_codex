@@ -1,6 +1,6 @@
 # D_sh-are_in_codex 開發者文件
 
-版本：0.10.0-beta.1。一般使用見 [README.md](README.md)。
+版本：0.10.0-beta.2。一般使用見 [README.md](README.md)。
 
 ## 環境與入口
 
@@ -39,6 +39,6 @@ node --test --test-timeout=45000 tests/host-conversion.test.mjs
 
 ## 發布
 
-版本同步 package.json、package-lock.json 根項目與 .codex-plugin/plugin.json；Beta 版本格式為 0.10.0-beta.1。保留技能中的版本說明一致。
+版本同步 package.json、package-lock.json 根項目與 .codex-plugin/plugin.json；Beta 版本格式為 0.10.0-beta.2。保留技能中的版本說明一致。
 
 不提交依賴、本機環境設定、私人對話、個人絕對路徑、生成快取與備份。能力界線見 COMPATIBILITY.md；第三方來源見 THIRD_PARTY_NOTICES.md。

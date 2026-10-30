@@ -1,6 +1,6 @@
 {
   "name": "dsh-to-codex",
-  "version": "0.10.0-beta.1",
+  "version": "0.10.0-beta.2",
   "description": "讓 DSH 社群的插件能夠在 Codex 使用。 Use DSH community plugins in Codex.",
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",

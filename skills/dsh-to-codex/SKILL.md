@@ -3,7 +3,7 @@ name: dsh-to-codex
 description: 逛 DSH 社群市場，將待審插件交給目前 Codex 對話，審查後由使用者決定轉換安裝。
 ---
 
-本版 0.10.0-beta.1。只要開啟市場時，直接呼叫 open_dsh_market，不先讀額外文件；預設會開目前 Codex 右側瀏覽器。一般使用者不需要捷徑、固定網址或手動啟動服務。
+本版 0.10.0-beta.2。只要開啟市場時，直接呼叫 open_dsh_market，不先讀額外文件；預設會開目前 Codex 右側瀏覽器。一般使用者不需要捷徑、固定網址或手動啟動服務。
 
 專用入口為 $dsh-to-codex:dsh-market（選單顯示「開啟 DSH 插件市場」），也接受「開啟 DSH 插件市場」自然語句。工具若仍指向已卸載舊版本，使用目前技能相對的 ../../bin/dsh-market.mjs，再依回傳的 display.status 處理；needs-host-open 才用目前對話的 open_in_codex 開網址，不叫使用者複製。
 
